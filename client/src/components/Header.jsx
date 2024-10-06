@@ -20,15 +20,15 @@ export default function Header() {
                 className='hidden lg:inline'
             />
         </form>
-        <Button className='w-12 h-9 lg:hidden' color='gray' pill>
+        <Button className='lg:hidden' color='gray' pill>
             <AiOutlineSearch/>
         </Button>
         <div className='flex gap-2 md:order-2'>
-            <Button className='w-12 h-9 hidden sm:inline' color='gray' pill>
+            <Button className='hidden sm:inline' color='gray' pill>
                 <FaMoon/>
             </Button>
             <Link to='/sign-in'>
-                <Button gradientDuoTone='purpleToBlue'>
+                <Button gradientDuoTone='purpleToBlue' outline>
                     Sign In
                 </Button>
             </Link>

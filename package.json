@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/cyb3ritic/full_stack_blog_app#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "mongodb": "^6.9.0",
